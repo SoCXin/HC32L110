@@ -21,6 +21,18 @@
 * 工作电压：1.8 ~ 5.5V
 * QFN20，TSSOP20，TSSOP16，CSP16
 
+
+### 低功耗
+
+* 0.5μA @ 3V 深度休眠模式：所有时钟关闭，上电复位有效，IO 状态保持，IO 中断有效，所有寄存器，RAM 和 CPU 数据保存状态时的功耗
+* 1.0μA @3V 深度休眠模式+ RTC 工作
+* 6μA@32.768kHz 低速工作模式：CPU 和外设模块运行，从 flash 运行程序
+* 20μA/MHz@3V@16MHz 休眠模式：CPU 停止工作，外设模块运行，主时钟运行
+* 120μA/MHz@3V@16MHz 工作模式：CPU和外设模块运行，从 Flash 运行程序
+* 4μs 超低功耗唤醒时间，使模式切换更加灵活高效，系统反应更为敏捷
+* 上述特性为室温下典型值，具体的电气特性、功耗特性参考电气特性章节
+
+
 ## [资源收录](https://github.com/SoCXin)
 
 * [参考资源](src/)
@@ -29,8 +41,16 @@
 
 ## [选型建议](https://github.com/SoCXin/HC32L110)
 
-[HC32L110](https://item.szlcsc.com/3163073.html)定位小封装低功耗MCU，相识定位的产品较多，例如：
+[HC32L110](https://item.szlcsc.com/3163073.html)定位小封装低功耗MCU，类似定位的产品较多，例如：
 
+* [STM32L011](https://github.com/SoCXin/STM32L011)
 * [CS32L010](https://github.com/SoCXin/CS32L010)
+* [MM32L073](https://github.com/SoCXin/MM32L073)
+
+低功耗MCU应用领域相对无线通信SoC而言较受限于通信传输，往往需要外接通信单元，低功耗内核主要应用于待机唤醒和中断检测。
+
+对于GPIO数量要求较高可以或者封装尺寸要求较高的，可以通过查看[STM32L系列](https://www.st.com/zh/microcontrollers-microprocessors/stm32-ultra-low-power-mcus.html)确定目标范围。
+
+
 
 ## [www.SoC.xin](http://www.SoC.Xin)
