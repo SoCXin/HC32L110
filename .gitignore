@@ -14,9 +14,9 @@ Debug
 # .mxproject
 # Change*
 # CHANGE*
-COPY*
-*CONTRIBU*
-LICENSE*
+# COPY*
+# *CONTRIBU*
+# LICENSE*
 *.swp
 *.lck
 *.log
@@ -29,37 +29,6 @@ LICENSE*
 *.bin
 *.bak
 # *.txt
-*.lst
-*.sct
-*.elf
-# *.ini
-*_sc*
-*cm23*
-*cm33*
-# *cm3*
-# *cm4*
-# *cm7*
-*cm1*
-core_armv8*
-*.uvgu*
-# .gitmodules
-# *.png
-*.jpg
-*.rst
-.travis.yml
-tests
-# mk
-*.launch
-DebugConfig
-RTE
-*.d
-*.o
-*.axf
-*.htm
-*.lnp
-*.scvd
-*.iex
-# !sRCA.bin
 Obj
 List
 Exe

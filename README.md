@@ -1,5 +1,7 @@
 ﻿# [HC32L110](https://doc.soc.xin/HC32L110)
 
+[![Build Status](https://github.com/SoCXin/HC32L110/workflows/src/badge.svg)](https://github.com/SoCXin/HC32L110/actions/workflows/src.yml)
+
 * [XHSC](http://www.xhsc.com.cn/): [Cortex-M0](https://github.com/SoCXin/Cortex)
 * [L1R1](https://github.com/SoCXin/Level): 32 MHz , [￥3.56](https://item.szlcsc.com/3163073.html)
 
@@ -27,7 +29,8 @@
 
 ## [选型建议](https://github.com/SoCXin/HC32L110)
 
-[HC32L110](https://item.szlcsc.com/3163073.html)
+[HC32L110](https://item.szlcsc.com/3163073.html)定位小封装低功耗MCU，相识定位的产品较多，例如：
 
+* [CS32L010](https://github.com/SoCXin/CS32L010)
 
 ## [www.SoC.xin](http://www.SoC.Xin)
