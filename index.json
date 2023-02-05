@@ -1,0 +1,36 @@
+{
+    "type":"MCU",
+    "name":"HC32L110",
+    "title": "XHSC HC32L110 MCU",
+    "description":"XHSC Cortex-M0 LE MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":32,
+        "DMIPS": 30,
+        "CoreMark": 68
+    },
+    "manufacturer": {
+        "vendor":"XHSC",
+        "homepage":"http://www.XHSC.com.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/HC32L110.git"
+    },
+    "version":"1.0.0",
+    "series":["HC32L110"],
+    "package":["QFN20","TSSOP20","TSSOP16","CSP16"],
+    "peripheral": ["ADC","LPUSART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [1.8,5.5],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "XHSC",
+        "DAC","ADC","I2C","LVD","SPI","LPUSART"
+    ]
+}
